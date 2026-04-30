@@ -9,6 +9,9 @@ body {
     justify-content: space-between;
     height: 100vh;
     padding: 70px 10%;
+
+    background: url("background.png") no-repeat center;
+    background-size: cover;
 }
 
 .home-content {
@@ -17,6 +20,12 @@ body {
 
 .logo-side {
     text-align: center;
+}
+
+.logo-side img {
+    width: 400px;
+
+    filter: drop-shadow(0 0 20px #0ef);
 }
 
 .logo-side h1 {
