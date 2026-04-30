@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, #000428, #004e92);
+    color: #fff;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 70px 10%;
+}
+
+.home-content {
+    max-width: 500px;
+}
+
+.logo-side {
+    text-align: center;
+}
+
+.logo-side h1 {
+    font-size: 200px;
+    color: #0ef;
+    text-shadow: 0 0 40px #0ef;
+}
+
+.logo-side p {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #0ef;
+}
+
+.skill-box {
+    margin-bottom: 15px;
+}
+
+.project-card {
+    background: #081b29;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
